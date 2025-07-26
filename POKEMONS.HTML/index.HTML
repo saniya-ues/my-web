@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zigzag Pokémon List</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+ul.zigzag-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+}
+
+.zigzag-list li {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.zigzag-list li:hover {
+  transform: scale(1.05);
+}
+
+.zigzag-list img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+.zigzag-list span {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<h1>Pokémon List</h1>
+<ul class="zigzag-list">
+  <li>
+    <a href="greninja.html">
+      <img src="https://img.pokemondb.net/artwork/large/greninja.jpg" alt="Greninja">
+      <span>Ash-Greninja 💧</span>
+    </a>
+  </li>
+  
+  
+  <li>
+ <a href="pikachu.html">
+      <img src="https://img.pokemondb.net/artwork/large/pikachu-hoenn-cap.jpg" alt="Pikachu">
+      <span>Pikachu ⚡</span>
+    </a>
+  </li>
+  
+  
+  <li>
+ <a href="charmander.html">
+      <img src="https://img.pokemondb.net/artwork/large/charmander.jpg" alt="Charmander">
+<span>Charmander 🔥</span>
+</a>
+</li>
+
+
+  <li>
+  <a href="altaria.html"><img src="https://img.pokemondb.net/artwork/large/altaria.jpg" alt="Altaria"><span>Altaria 🪽</span></a></li>
+  
+  <li>
+     
+     
+ <a href="squirtle.html"><img src="https://img.pokemondb.net/artwork/large/squirtle.jpg" alt="Squirtle"><span>Squirtle 🌊</span></a></li>
+  
+  
+  <li>
+  <a href="eevee.html"><img src="https://img.pokemondb.net/artwork/large/eevee.jpg" alt="Eevee"><span>Eevee 🌟</span></a></li>
+  
+  <li>
+  <a href="mewtwo.html"><img src="https://img.pokemondb.net/artwork/large/mewtwo.jpg" alt="Mewtwo"><span>Mewtwo 🧠</span></a>
+ </li>
+</ul>
+</body>
+</html>
